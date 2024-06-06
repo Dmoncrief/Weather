@@ -1,0 +1,31 @@
+/* Custom styles */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    color: #212529; /* Dark gray text */
+    font-family: Arial, sans-serif; /* Default font */
+  }
+  
+  header {
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow */
+  }
+  
+  .navbar-brand {
+    font-weight: bold; /* Bold font for the brand */
+  }
+  
+  .main-content {
+    padding: 20px; /* Add some padding */
+  }
+  
+  h1 {
+    color: #007bff; /* Blue heading color */
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      margin-top: 10px; /* Adjust margin for small screens */
+    }
+  }
+  
