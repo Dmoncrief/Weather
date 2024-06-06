@@ -84,7 +84,7 @@ function citiesWeatherData(selectedCity) {
             const cell3 = document.createElement("td");
             cell3.textContent = `Wind: ${values.windDirection} ${values.windSpeed}`;
             const cell4 = document.createElement("td");
-            cell4.textContent = `Forcast: ${values.forcast} ${values.shortForcast}`;
+            cell4.textContent = `Forecast: ${values.shortForecast}`;
 
             row.appendChild(cell);
             row.appendChild(cell2);
