@@ -68,7 +68,7 @@ function citiesWeatherData(selectedCity) {
           tableHeader.className = "table-dark";
           const tableBody = document.createElement("tbody");
           const headerRow = document.createElement("tr");
-          ["Time", "Temprature", "Wind", "Forecast"].forEach((text) => {
+          ["Time", "Temperature", "Wind", "Forecast"].forEach((text) => {
             const header = document.createElement("th");
             header.textContent = text;
             headerRow.appendChild(header);
